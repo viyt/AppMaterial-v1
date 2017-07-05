@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_padding"
+    android:clickable="true"
+    android:elevation="@dimen/card_resting_elevation"
+    android:background="@null"
+    android:foreground="?selectableItemBackground"
+    android:stateListAnimator="@animator/card_animator">
+
+    <include layout="@layout/cardview_content_include" />
+</android.support.v7.widget.CardView>

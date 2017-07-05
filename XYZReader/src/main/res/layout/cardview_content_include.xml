@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <cf.javadev.xyzreader.ui.DynamicHeightImageView
+        android:id="@+id/cardview_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/article_title"
+        style="@style/AppTheme.Title"
+        android:layout_alignBottom="@id/cardview_image"
+        android:maxLines="2"
+        android:paddingBottom="@dimen/space_between_content_areas"
+        android:paddingEnd="@dimen/text_default_padding"
+        android:paddingStart="@dimen/text_default_padding"
+        android:textColor="@color/white" />
+
+    <FrameLayout
+        android:id="@+id/subtitle_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/subtitle_container_height"
+        android:layout_below="@+id/cardview_image">
+
+        <TextView
+            android:id="@+id/article_subtitle"
+            style="@style/AppTheme.Subhead"
+            android:layout_gravity="start|center_vertical"
+            android:maxLines="2"
+            android:padding="@dimen/text_default_padding"
+            tools:text="The second subtitle text" />
+    </FrameLayout>
+</RelativeLayout>

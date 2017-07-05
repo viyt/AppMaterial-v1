@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--All-->
+    <dimen name="toolbar_size">48dp</dimen>
+
+    <!--ArticleDetailFragment-->
+    <dimen name="detail_toolbar_height">128dp</dimen>
+    <dimen name="detail_card_width">460dp</dimen>
+    <dimen name="detail_card_margin_top">56dp</dimen>
+
+    <!--Integers-->
+    <integer name="list_column_count">3</integer>
+</resources>

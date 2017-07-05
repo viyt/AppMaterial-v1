@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">XYZ Reader</string>
+
+    <!--Actions-->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_share">Share</string>
+
+    <!--Messages-->
+    <string name="more_detailed">More detailed:</string>
+    <string name="no_internet">No Internet Connection, please enable Internet connection and try again</string>
+
+    <!--Descriptions-->
+    <string name="description_image_title">Title image</string>
+
+</resources>

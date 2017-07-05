@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/detail_background_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_appbar_height"
+        android:contentDescription="@string/description_image_title"
+        android:scaleType="centerCrop" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="@dimen/detail_card_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/detail_card_margin_top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_detail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/detail_toolbar_height"
+                android:background="@null"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="@dimen/space_between_content_areas"
+                    android:minHeight="?android:attr/actionBarSize"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/article_title"
+                        style="@style/AppTheme.Display1.Inverse" />
+
+                    <TextView
+                        android:id="@+id/article_byline"
+                        style="@style/AppTheme.Headline.Inverse" />
+                </LinearLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/article_body"
+                    style="@style/AppTheme.Body1"
+                    android:padding="@dimen/screen_default_margin" />
+            </android.support.v4.widget.NestedScrollView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/share_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/screen_default_margin"
+        android:contentDescription="@string/action_share"
+        app:layout_anchor="@id/detail_background_image"
+        app:layout_anchorGravity="bottom|end"
+        app:srcCompat="@drawable/ic_share_white_24dp" />
+</android.support.design.widget.CoordinatorLayout>

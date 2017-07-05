@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--All-->
+    <dimen name="screen_default_margin">16dp</dimen>
+    <dimen name="space_between_content_areas">8dp</dimen>
+    <dimen name="toolbar_size">56dp</dimen>
+
+    <!--ArticleListActivity-->
+    <dimen name="recycler_view_padding">2dp</dimen>
+    <dimen name="card_resting_elevation">2dp</dimen>
+    <dimen name="card_picked_elevation">8dp</dimen>
+    <dimen name="card_padding">2dp</dimen>
+    <dimen name="subtitle_container_height">68dp</dimen>
+    <dimen name="refresh_indicator_elevation">3dp</dimen>
+    <integer name="list_column_count">2</integer>
+
+    <!--ArticleDetailFragment-->
+    <dimen name="image_appbar_height">300dp</dimen>
+    <dimen name="appbar_elevation">4dp</dimen>
+    <dimen name="content_top_margin">56dp</dimen>
+
+    <dimen name="detail_toolbar_height">112dp</dimen>
+    <dimen name="detail_toolbar_elevation">4dp</dimen>
+    <dimen name="exp_title_end">64dp</dimen>
+    <dimen name="exp_title_start">48dp</dimen>
+    <dimen name="text_default_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

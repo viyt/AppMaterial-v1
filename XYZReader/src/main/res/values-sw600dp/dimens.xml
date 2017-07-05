@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--All-->
+    <dimen name="screen_default_margin">24dp</dimen>
+
+    <!--ArticleDetailFragment-->
+    <dimen name="detail_toolbar_height">160dp</dimen>
+    <dimen name="detail_card_width">560dp</dimen>
+    <dimen name="detail_card_margin_top">128dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+
+    <!--Integers-->
+    <integer name="list_column_count">3</integer>
+</resources>
